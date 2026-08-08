@@ -9,7 +9,6 @@ APP_NAME = "Flask CI/CD Project"
 APP_VERSION = os.getenv("APP_VERSION", "1.0.0")
 APP_ENVIRONMENT = os.getenv("APP_ENVIRONMENT", "development")
 
-
 @app.route("/")
 def home():
     """Display the main DevOps project dashboard."""
